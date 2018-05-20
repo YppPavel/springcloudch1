@@ -5,7 +5,12 @@
 
 	<artifactId>microservice-consumer-movie</artifactId>
 	<packaging>jar</packaging>
-
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-eureka</artifactId>
+		</dependency>
+	</dependencies>
 	<parent>
 		<groupId>com.yupaopao</groupId>
 		<artifactId>spring-cloud-microservice</artifactId>
